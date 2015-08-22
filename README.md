@@ -171,7 +171,7 @@
   - [SLC Dental](http://www.slcdentalcenter.com/)
 - Additional Reading:
 
-#### <a name="day15"></a> Day 5 - JavaScript Fundamentals I & II
+#### <a name="day15"></a> Day 5 - JavaScript Fundamentals I
 - Pre-Reading:
   - [Eloquent JavaScript - Functions](http://eloquentjavascript.net/03_functions.html)
 - Learning Objectives
@@ -187,64 +187,64 @@
     - global and local scope
     - anonymous functions
     - return values and how to save the returned value to another variable
-  - Students will understand Arrays:
+  - Closures
+- Projects:
+  - [JavaScript Basics](https://github.com/DevMountain/JS-Basics)
+- Additional Reading:
+  - [Everything you need to know about Scopes](http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
+
+## <a name="week2"></a> Week 2
+#### <a name="day21"></a> Day 1 - JavaScript Fundamentals II & III
+- Pre-Reading:
+  - [JS is Sexy - Objects](http://javascriptissexy.com/javascript-objects-in-detail/)
+- Learning Objectives
+  - Objects
+    - Students will understand use cases for objects
+    - Students will understand how to create and add properties/values to objects
+    - Students will understand how to loop through objects
+    - Students will understand how to create and invoke a method
+    - Students will understand bracket notation vs dot notation
+    - Students will understand how to remove keys/props from objects (delete)
+  - Arrays
     - purpose
     - how to get values from arrays
     - array properties (length, push/pop, shift/unshift, split/join, splice/slice, reverse, indexOf)
     - how to create an array
     - how to loop through an array
 - Projects:
-  - [JavaScript Basics](https://github.com/DevMountain/JS-Basics)
+  - [JavaScript Objects](https://github.com/DevMountain/object-fiddles)
   - [JavaScript Arrays](https://github.com/DevMountain/JS-Arrays)
 - Additional Reading:
 
-## <a name="week2"></a> Week 2
-#### <a name="day21"></a> Day 1 - JavaScript Fundamentals III
+#### <a name="day22"></a> Day 2 - JS Fundamentals IV
 - Pre-Reading:
-  - [JS is Sexy - Objects](http://javascriptissexy.com/javascript-objects-in-detail/)
+  - [This with Clarity](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 - Learning Objectives
-  - Students will understand how Objects differ from Arrays
-  - Students will understand use cases for objects
-  - Students will understand how to create and add properties/values to objects
-  - Students will understand how to loop through objects
-  - Students will understand how to create and invoke a method
-  - Students will understand bracket notation vs dot notation
-  - Students will understand how to remove keys/props from objects (delete)
+  - the purpose of the ‘this’ keyword
+    - 4 rules for determining what ‘this’ is bound to
+      - Implicit Binding
+      - Explicit Binding
+        - call
+        - apply
+        - bind
+      - new binding
+      - Default Binding
 - Projects:
-  - [JavaScript Objects](https://github.com/DevMountain/object-fiddles)
-  - [War](https://github.com/DevMountain/war)
+  - [The This Keyword](https://github.com/DevMountain/the-keyword-this)
 - Additional Reading:
 
-#### <a name="day22"></a> Day 2 - Advanced JavaScript I & II
+
+#### <a name="day23"></a> Day 3 - JS Fundamentals V
 - Pre-Reading:
   - [JS is Sexy - Callbacks](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
-  - [JS is Sexy - Prototypes](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
-  - [JS is Sexy - this](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 - Learning Objectives
   - Students will understand synchronous vs asynchronous programming
   - Students will be able to talk about what a callback is
   - Students will understand the use cases of callbacks
   - Students will be able to identify and use callbacks
-  - Students will understand the difference between the maker pattern and constructor pattern
-  - Students will understand what the ‘this’ keyword does and be able to use it
-  - Students will understand what the ‘new’ keyword does and what the JavaScript compiler does when a function is       called with the ‘new’ keyword
-  - Students will understand what prototypes are in JavaScript and be able to add a method on a functions prototype and create instances of that function that invoke the prototypes method
-- Projects:
-  - [Callback Practice](https://github.com/DevMountain/callbackPractice)
-  - [Constructor Conductor](https://github.com/DevMountain/ConstructorConductor)
-- Additional Reading:
-
-
-#### <a name="day23"></a> Day 3 - Advanced JS III & JS Review
-- Pre-Reading:
-  - [JS is Sexy - Closures](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
-  - [JS is Sexy - Scopes and Hoisting](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)
-- Learning Objectives
-  - Students will be able to define what a closure is
-  - Students will be able to identify when a closure is being used
 - Project:
-  - [Closure Practice](https://github.com/DevMountain/closurePractice)
-  - [JavaScript Review](https://github.com/DevMountain/JavaScript-Review)
+  - [Callback Practice](https://github.com/DevMountain/callbackPractice)
+  - [Utilities](https://github.com/DevMountain/utilities)
 - Additional Reading:
 
 #### <a name="day24"></a> Day 4 - jQuery I
@@ -358,14 +358,11 @@
   - Students will understand how Directives fit into the Angular ecosystem
   - Students will be able to create a custom directive and use it in a view
 - Project:
-  - [Directives Workshop](https://github.com/DevMountain/Directives-Workshop)
+  - [Angular Directives](https://github.com/dckesler/Angular-Directive-Project)
 - Additional Reading:
 
 #### <a name="day43"></a> Day 3 - Angular Review II / Panel
-- Pre-Reading:
-  - [Form Validation w/ NG](http://scotch.io/tutorials/javascript/angularjs-form-validation)
-- Project:
-  - [Form Validation](https://github.com/DevMountain/formValidation)
+- Review Day
 
 #### <a name="day44"></a> Day 4 - Parse & Firebase
 - Pre-Reading:
@@ -426,18 +423,7 @@
   - [TextSupport](https://github.com/DevMountain/TextSupport)
 - Additional Reading:
 
-#### <a name="day62"></a> Day 2 - NodeJS IV
-- Mini Project:
-  - [Facebook Profile Viewer](https://github.com/DevMountain/FacebookViewer)
-- Learning Objectives
-  - Student can distinguish between Basic Auth, Form-based Auth, Token-based Auth, and OAuth
-  - Student can use express sessions to restrict access to resources
-  - Student can use passport to authenticate users with providers like Twitter, Facebook, etc.
-- Project:
-  - [Coder Friends](https://github.com/DevMountain/CoderFriends)
-- Additional Reading:
-
-#### <a name="day63"></a> Day 3 - MongoDB I
+#### <a name="day62"></a> Day 2 - MongoDB I
 - Mini Project:
   - [Birds](https://github.com/jacob-israel-turner/mini-birds)
 - Learning Objectives
@@ -448,9 +434,9 @@
   - [eCommerce I](https://github.com/DevMountain/ecommerce-part-one)
 - Additional Reading:
 
-#### <a name="day64"></a> Day 4 -  MongoDB II
+#### <a name="day63"></a> Day 3 - MongoDB II
 - Mini Project:
-  - [TODO](#TODO)
+  - [Mini-Birds Mongoose](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdallincrane%2Fmini-birds-mongoose&sa=D&sntz=1&usg=AFQjCNFNmty01wuxbCq-U1Z_hI0OFlWWBw)
 - Learning Objectives
   - understand what object modeling is and why it’s used
   - understand the difference between Mongoose and MongoJS
@@ -458,9 +444,9 @@
   - [eCommerce II](https://github.com/DevMountain/ecommerce-part-two)
 - Additional Reading:
 
-#### <a name="day65"></a> Day 5 -  MongoDB III
+#### <a name="day64"></a> Day 4 -  MongoDB III
  - Mini Project:
-  - [TODO](#TODO)
+  - [Mini-Birds Related](https://github.com/dallincrane/mini-birds-related)
  - Learning Objectives
   - Understand the concept of relationships
   - Understand the different types of relationships, and when to use them
@@ -468,6 +454,8 @@
  - Project:
    - [eCommerce III](https://github.com/DevMountain/ecommerce-part-three)
  - Additional Reading:
+
+#### <a name="day65"></a> Day 5 -  Personal Projects
 
 ## <a name="week7"></a> Week 7 (INTERIM WEEK)
 #### <a name="day71"></a> Day 1 - Personal Projects
@@ -477,7 +465,17 @@
 #### <a name="day75"></a> Day 5 - Personal Projects
 
 ## <a name="week8"></a> Week 8
-#### <a name="day81"></a> Day 1 - Personal Projects
+#### <a name="day81"></a> Day 1 - NodeJS IV
+- Mini Project:
+  - [Facebook Profile Viewer](https://github.com/DevMountain/FacebookViewer)
+- Learning Objectives
+  - Student can distinguish between Basic Auth, Form-based Auth, Token-based Auth, and OAuth
+  - Student can use express sessions to restrict access to resources
+  - Student can use passport to authenticate users with providers like Twitter, Facebook, etc.
+- Project:
+  - [Coder Friends](https://github.com/DevMountain/CoderFriends)
+- Additional Reading:
+
 #### <a name="day82"></a> Day 2 - Personal Projects
 #### <a name="day83"></a> Day 3 - Personal Projects
 #### <a name="day84"></a> Day 4 - Personal Projects
@@ -491,7 +489,7 @@
 #### <a name="day95"></a> Day 5 - Personal Projects
 
 ## <a name="week9"></a> Week 10
-#### <a name="day101"></a> Day 1 - React I
+#### <a name="day101"></a> Day 1 - Advanced JS I
 - Pre-Reading:
 - Mini Project:
   - [TODO](#TODO)
@@ -503,7 +501,7 @@
   - [TODO](#TODO)
 - Additional Reading:
 
-#### <a name="day102"></a> Day 2 - React II
+#### <a name="day102"></a> Day 2 - Advanced JS II
 - Pre-Reading:
 - Mini Project:
   - [TODO](#TODO)
@@ -515,7 +513,7 @@
   - [TODO](#TODO)
 - Additional Reading:
 
-#### <a name="day103"></a> Day 3 - React III
+#### <a name="day103"></a> Day 3 - React I
 - Pre-Reading:
 - Mini Project:
   - [TODO](#TODO)
@@ -527,7 +525,7 @@
   - [TODO](#TODO)
 - Additional Reading:
 
-#### <a name="day104"></a> Day 4 - React IV
+#### <a name="day104"></a> Day 4 - React II
 - Pre-Reading:
 - Mini Project:
   - [TODO](#TODO)
@@ -539,7 +537,17 @@
   - [TODO](#TODO)
 - Additional Reading:
 
-#### <a name="day105"></a> Day 5 - Group Projects
+#### <a name="day104"></a> Day 4 - React III
+- Pre-Reading:
+- Mini Project:
+  - [TODO](#TODO)
+- Learning Objectives
+  - LEARNING OBJ
+  - LEARNING OBJ
+  - LEARNING OBJ
+- Project:
+  - [TODO](#TODO)
+- Additional Reading:
 
 ## <a name="week11"></a> Week 11
 #### <a name="day111"></a> Day 1 - Group Projects
